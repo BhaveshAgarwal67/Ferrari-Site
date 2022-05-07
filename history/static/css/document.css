@@ -1,0 +1,34 @@
+body {
+  font-family: "Body-Font";
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .site {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
