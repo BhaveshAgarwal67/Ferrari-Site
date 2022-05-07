@@ -1,0 +1,27 @@
+body {
+  font-family: "Body-Font";
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#__next {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+}
+
+/* IFVS-1923 */
+a, button {
+  outline: none;
+}
